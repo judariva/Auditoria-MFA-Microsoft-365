@@ -1,4 +1,3 @@
-# MFA-Status-Report
 # Auditoría de Autenticación Multi-Factor (MFA) en Microsoft 365 con PowerShell - Una Herramienta Vital para Tu Seguridad
 
 ¡Hola! Soy Juan David Rivera, especialista en ciberseguridad. En esta ocasión quiero presentarte una herramienta esencial en el mundo de la ciberseguridad: un script de PowerShell para auditar el estado de la Autenticación Multi-Factor (MFA) en Microsoft 365.
