@@ -10,9 +10,6 @@ Script Name: MFA_Status_Report.ps1
 Author: Juan David Rivera
 #>
 
-# Register the script as the property of [Juan David Rivera]
-Set-PSScriptProperty -Name Owner -Value [Juan David Rivera]
-
 # Import user list
 $users = Get-MsolUser -All
 
