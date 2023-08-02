@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-This script checks the MFA (Multi-Factor Authentication) status for users and exports a report to a specified path.
+This script checks the MFA (Multi-Factor Authentication) status for users and exports a report to the current directory.
 .DESCRIPTION
 The script retrieves a list of all users, checks their MFA status, and exports a detailed report as a CSV file.
 .PARAMETER ExportPath
@@ -65,4 +65,4 @@ foreach ($user in $users) {
 
 # Export the result array to a CSV file
 $results | Select-Object DisplayName,UPN,PhoneNumber,"MFA Enabled",DefaultMethod,Licensed,AssignedLicence,UserType | 
-Export-Csv "$ExportPath\MFA_User_Report.csv" -NoTypeInformation  # Exports the report as a CSV file to the specified path.
+    Export-Csv -Path .\MFA_User_Report.csv -NoTypeInformation
