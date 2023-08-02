@@ -32,10 +32,14 @@ Antes de poder ejecutar este script, necesitas:
 
 ## Cómo utilizarlo
 
-1. Descarga el script desde mi repositorio en GitHub: [https://github.com/judariva/MFA-Status-Report/](https://github.com/judariva/MFA-Status-Report/)
-2. Abre una sesión de PowerShell.
-3. Navega hasta la ubicación del script descargado con el comando `cd ruta_del_script`.
-4. Ejecuta el script con el siguiente comando: `.\MFA_Status_Report.ps1 -ExportPath tu_ruta_de_exportacion`. Sustituye `tu_ruta_de_exportacion` con la ruta donde deseas que se guarde el informe.
+1. Asegúrate de cumplir con los prerrequisitos mencionados anteriormente.
+2. Descarga el script desde mi repositorio en GitHub: [MFA_Status_Report.ps1](https://github.com/judariva/MFA-Status-Report/blob/main/MFA_Status_Report.ps1)
+3. Abre una sesión de PowerShell con permisos de administrador.
+4. En caso de que no esté instalado, instala el módulo MSOnline ejecutando `Install-Module MSOnline` en tu sesión de PowerShell.
+5. Conéctate a tu cuenta de administrador de Microsoft 365 utilizando el módulo MSOnline con el comando `Connect-MsolService`. Se te solicitará que introduzcas tus credenciales de administrador.
+6. Navega hasta la ubicación del script descargado con el comando `cd ruta_del_script`.
+7. Ejecuta el script con el siguiente comando: `.\MFA_Status_Report.ps1 -ExportPath tu_ruta_de_exportacion`. Sustituye `tu_ruta_de_exportacion` con la ruta donde deseas que se guarde el informe.
+
 
 ## Contacto
 
