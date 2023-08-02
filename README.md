@@ -27,7 +27,7 @@ Los datos recopilados incluyen:
 ## Cómo utilizarlo
 
 1. Asegúrate de cumplir con los prerrequisitos mencionados anteriormente.
-2. Descarga el script desde mi repositorio en GitHub: [MFA_Status_Report.ps1](https://github.com/judariva/MFA-Status-Report/blob/main/MFA_Status_Report.ps1)
+2. Descarga el script desde mi repositorio en GitHub: [MFA_Status_Report.ps1](https://github.com/judariva/Auditoria-MFA-Microsoft-365/blob/main/MFA_Status_Report.ps1)
 3. Abre una sesión de PowerShell con permisos de administrador.
 4. En caso de que no esté instalado, instala el módulo MSOnline ejecutando `Install-Module MSOnline` en tu sesión de PowerShell.
 5. Conéctate a tu cuenta de administrador de Microsoft 365 utilizando el módulo MSOnline con el comando `Connect-MsolService`. Se te solicitará que introduzcas tus credenciales de administrador.
